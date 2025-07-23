@@ -1,5 +1,5 @@
 {
-  "name": "academy-management-app2",
+  "name": "academy-management-app-monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2"
+  }
 }

@@ -3,9 +3,9 @@
     "paths": {
       //
     },
-    // "target": "es5",
     "target": "es6",
-    "module": "CommonJS",
+    "module": "ES2015",
+    // "module": "CommonJS",
     // "module": "esnext", // next.js
     "lib": ["dom", "dom.iterable", "esnext"],
     // "baseUrl": "./src",
@@ -23,7 +23,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "incremental": true,
-    // "strictNullChecks": true // 엄격하게 Null과 Undefined 서로의 타입까지 더 이상 할당할 수 없게 합니다.
+    // "strictNullChecks": true // 엄격하게 Null과 Undefined 서로의 타입까지 더 이상 할당할 수 없게 한다?.
     "outDir": "./dist" // MEMO: 컴파일 경로
   },
   "include": [
@@ -32,7 +32,6 @@
     "test/jestPractice",
     "src/components/Mainbar/Category/ApartmentManagementSub/.tsx"
   ],
-  // "include": ["src", "next-env.d.ts", "**/*.ts", "**/*.tsx"], // next.js
   "exclude": ["node_modules"],
   "typeRoots": ["./types", "./types"]
 }
